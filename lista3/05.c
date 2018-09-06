@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Abstract data types
+//TADs
 typedef struct termo
 {
   int coeficiente;
   char incognita;
   int expoente;
 } Tterm;
-//Prototypes
+
+//Prototipos
 Tterm *initialEq(int nTerms);
 Tterm *simplifiedEq(Tterm *arr, int nTerms);
 
