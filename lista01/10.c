@@ -13,7 +13,7 @@ int main(int argc, char const *argv[]) {
       if (prodAt > Maiprod) {
         Maiprod = prodAt;
         int l = 0;
-        for (size_t k = i-1; k < i+4; k++) {
+        for (size_t k = i; k < i+5; k++) {
           num[l] = (str[k]-48);
           l++;
         }
